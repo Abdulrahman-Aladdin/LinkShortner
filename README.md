@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Used Technologies
+- Shadcn ui + tailwind css
+- Postgres db on Neon
+- Drizzle ORM
+- Clerk for auth
+- zod for validation
+
 ## Getting Started
 
 First, run the development server:
