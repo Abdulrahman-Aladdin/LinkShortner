@@ -14,12 +14,17 @@ This document provides comprehensive coding standards and best practices for all
 
 ## Quick Start for LLMs
 
-When working on this project:
-1. Read the relevant instruction file(s) from the `/docs` directory
-2. Follow the coding standards and patterns provided
-3. Test your changes according to testing standards
-4. Ensure TypeScript strict mode compliance
-5. Validate ESLint passes
+⚠️ **INCREDIBLY IMPORTANT** ⚠️
+
+**BEFORE WRITING ANY CODE, YOU MUST:**
+1. **READ the relevant instruction file(s) from the `/docs` directory** — This is MANDATORY, not optional
+2. Understand the patterns, conventions, and requirements in those files
+3. Only then write code following those standards exactly
+4. Test your changes according to testing standards
+5. Ensure TypeScript strict mode compliance
+6. Validate ESLint passes
+
+**Do not skip step 1.** Always read the relevant .md file first.
 
 ## Instruction Documents
 
@@ -76,9 +81,14 @@ All detailed standards are organized in the `/docs` directory:
 ## Development Workflow
 
 ### Before Starting
-1. Check which instruction file(s) apply to your task
-2. Review the patterns and examples provided
-3. Understand the project structure and conventions
+
+⚠️ **CRITICAL - READ DOCS FIRST** ⚠️
+
+1. **IDENTIFY which instruction file(s) apply to your task**
+2. **READ THE ENTIRE FILE(S) CAREFULLY** — This is INCREDIBLY IMPORTANT and mandatory before any coding
+3. Study the patterns, examples, and conventions provided
+4. Understand the project structure and all relevant conventions
+5. **ONLY THEN** proceed with writing code that follows those exact standards
 
 ### During Development
 1. Follow the specific patterns from the relevant instruction files
